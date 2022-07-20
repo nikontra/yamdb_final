@@ -80,3 +80,5 @@ sudo docker-compose exec web python manage.py loaddata fixtures.json
 Контакты: 
  - Email: nikontra@yandex.ru
  - Git: https://github.co
+
+ ![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
