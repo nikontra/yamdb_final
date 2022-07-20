@@ -48,8 +48,10 @@ jobs:
     - name: Push to Docker Hub 
       uses: docker/build-push-action@v2 
       with:
+        context: .
+        file: ./api_aymdb/Dockerfile
         push: true
-        tags: nikontra/api_yamdb:latest
+        tags: nikontra/yamdb_final:latest
 
   deploy:
     runs-on: ubuntu-latest
