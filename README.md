@@ -81,4 +81,9 @@ sudo docker-compose exec web python manage.py loaddata fixtures.json
  - Email: nikontra@yandex.ru
  - Git: https://github.co
 
+
+## **Проект можно посмотреть по адресу:**
+
+http://51.250.18.26/
+
 ![example workflow](https://github.com/nikontra/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
